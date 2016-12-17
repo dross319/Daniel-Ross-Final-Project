@@ -1,0 +1,142 @@
+
+header {
+	color: black;
+	background: white;
+	padding: 20px;
+	background: url('../img1/mirror.jpg') no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+h1 {
+	text-align: left;
+	color: yellow;
+	font-size: 3rem;
+}
+
+h2 {
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+	font-family: helvetica, sans-serif;
+	font-size: 2rem;
+}
+
+#home {
+	text-align:center;
+	font-family: helvetica, sans-serif;
+}
+
+nav {
+	width: 200px;
+	margin: auto;
+	top: 0;
+	left: 75%;
+	margin-left: 0px;
+	position: absolute;
+}
+
+nav ul {
+	width: 100%;
+	list-style: none;
+	background-color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+
+nav li {
+	font-size: 2rem;
+	font-family: helvetica, sans-serif;
+	height: 40px;
+	border-bottom: 1px solid #888;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	background-color: red
+}
+
+#images > img:nth-child(1) {
+	float: left;
+	/*margin-top: 10px;*/
+	width: 45%;
+}
+
+#images > img:nth-child(2) {
+	width: 45%;
+}
+
+#images > img:nth-child(3) {
+	float: left;
+	width: 45%;
+}
+
+#images > img:nth-child(4) {
+	width: 45%;
+}
+
+#images > img:nth-child(5) {
+	float: left;
+	width: 45%;
+}
+
+#images > img:nth-child(6) {
+	width: 45%;
+}
+#drawings > img:nth-child(1) {
+	float: left;
+	width: 100%;
+}
+#drawings > img:nth-child(2) {
+	float: left;
+	width: 45%;
+}
+
+#drawings > img:nth-child(3) {
+	width: 45%;
+}
+
+#drawings > img:nth-child(4) {
+	float: left;
+	width: 45%;
+}
+
+#drawings > img:nth-child(5) {
+	width: 45%;
+} 
+
+#drawings > img:nth-child(6) {
+	float: left;
+	width: 45%;
+}
+
+#drawings > img:nth-child(7) {
+	width: 45%;
+}
+
+#clothes > img:nth-child(1) {
+	float: left;
+	width: 45%;
+}
+
+#clothes > img:nth-child(2) {
+	width: 45%;
+}
+
+#clothes > img:nth-child(3) {
+	float: left;
+	width: 45%;
+	margin-top: -30%;
+}
+
+img {
+	opacity: 0.5;
+}
+
+img:hover {
+	opacity: 1.0;
+}
+
